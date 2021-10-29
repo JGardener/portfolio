@@ -1,3 +1,24 @@
-.jamesCard {
-    
+.contact_wrapper {
+    max-width: 1000px;
+    min-width: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+@media ( max-width: 768px) {
+    .contact_wrapper {
+        flex-direction: column;
+        align-items: center;
+
+    }
 }

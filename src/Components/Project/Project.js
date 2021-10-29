@@ -9,6 +9,7 @@ const Project = ({projectName, projectImage, projectDescription}) => {
             <section className="display_wrapper">
                 <section className={styles.project_image} style={{backgroundImage: `url(${projectImage})`, backgroundSize: 'contain', backgroundRepeat: 'no-repeat'}}></section>
                 <section><p>{projectDescription}</p></section>
+
             </section>            
             <Link to="/projects">Back</Link>
         </section>

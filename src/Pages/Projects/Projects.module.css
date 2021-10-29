@@ -1,0 +1,12 @@
+.projects_text {
+    text-align: center;
+}
+
+.projects_links {
+    text-align: center;
+}
+
+.projects_links {
+    display: flex;
+    flex-direction: column;
+}

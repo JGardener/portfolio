@@ -1,6 +1,10 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.header_wrapper {
+    margin-bottom: auto;
+    padding: 10px;
+    text-align: center;
+}
 
-*/
+.header_links {
+    display: flex;
+    justify-content: space-around;
+}

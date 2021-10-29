@@ -1,14 +1,43 @@
 .card_wrapper {
-    max-width: 800px;
     height: 300px;
-    margin: auto;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: space-around
-
+    min-width: 300px;
+    max-width: 300px;
+    background: grey;
+    border-radius: 10px;
+    background: url(../../Assets/images/james-contact-card.jpg) center center no-repeat;
+    background-size: 300px;
+    transition: background 0.8s;
 }
 
-.card_wrapper_inner {
-    max-width: 400px;
+.card_wrapper:hover {
+    background: url(../../Assets/images/james-contact-card.jpg) left center no-repeat;
+    background-size: 600px;  
+}
+
+.card_title {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.card_wrapper:hover > .card_title {
+    opacity: 1;
+}
+
+.card_icon {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.card_wrapper:hover > .card_icon_wrapper > .card_icon {
+    opacity: 1;
+}
+
+.card_icon_wrapper {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 130px;
+    top: 290px;
+    align-items: flex-start;
+    justify-content: space-around;
 }
