@@ -2,9 +2,23 @@
     margin-bottom: auto;
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
 
 .header_links {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+@media (max-width: 425px) {
+    .header_links {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .header_links > a {
+        padding: 5px;
+    }
 }

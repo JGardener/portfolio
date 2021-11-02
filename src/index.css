@@ -11,9 +11,7 @@ body {
   font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
-  
-  
+  background-color: black;  
 }
 
 code {
@@ -26,3 +24,7 @@ a {
   text-decoration: none;
 }
 
+
+html {
+  width: 100%;
+}

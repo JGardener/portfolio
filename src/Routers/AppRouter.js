@@ -26,8 +26,27 @@ const AppRouter = () => {
                 <Route path="/" exact component={Home}/>
                 <Route path="/about" component={About}/>
                 <Route path='/projects' exact component={Projects}/>
-                <Route path="/projects/indecision" render={() => <Project projectName={'Indecision'} projectImage={indecisionImage} projectDescription={IndecisionInformation.description}/>}/>
-                <Route path="/projects/rock-paper-scissors" render={() => <Project projectName={'Rock-Paper-Scissors'} projectImage={rpsImage} projectDescription={RPSInformation.description}/>}/>
+
+                <Route 
+                path="/projects/indecision" 
+                render={() => <Project 
+                    projectName={'Indecision'} 
+                    projectImage={indecisionImage} 
+                    projectDescription={IndecisionInformation.description} 
+                    projectApp={IndecisionInformation.app}
+                    projectCode={IndecisionInformation.code}
+                />}/>
+
+                <Route 
+                path="/projects/rock-paper-scissors" 
+                render={() => <Project 
+                    projectName={'Rock-Paper-Scissors'} 
+                    projectImage={rpsImage} 
+                    projectDescription={RPSInformation.description}
+                    projectApp={RPSInformation.app}
+                    projectCode={RPSInformation.code}
+                />}/>
+
                 <Route path="/contact" component={Contact}/>
             </Switch>
         </Router>

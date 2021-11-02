@@ -4,7 +4,7 @@ import styles from './About.module.css';
 const About = () => {
     return (
         <section className={styles.about_wrapper}>
-            <h1>Who are you?</h1>
+            <h1 className={styles.about_title}>Who are you?</h1>
             <p>
                 I'm an aspiring front-end developer, learning to code from 2018.
             </p>
@@ -22,7 +22,7 @@ const About = () => {
             </p>
             <br />
             <p>
-                Now, I am looking to get my very first professional position as a Junior Front-End Developer, to grow my 
+                Now, I am looking to get my very first professional position as a front-end developer to grow my 
                 skillbase, to expand my knowledge and improve myself.  
             </p>
             <br />

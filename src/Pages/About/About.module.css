@@ -1,5 +1,11 @@
-.about_wrapper {
-    text-align: center;
-    padding: 10px;
+.about_wrapper {   
+    padding: 30px;
     line-height: 32px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about_title {
+    margin-bottom: 20px;
+    text-align: center;
 }
