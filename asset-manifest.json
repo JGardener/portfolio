@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.2ee63e95.chunk.css",
+    "main.js": "/portfolio/static/js/main.d2b2336f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.d2b2336f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f9764ce2.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f9764ce2.js.map",
+    "static/js/2.65a30f4b.chunk.js": "/portfolio/static/js/2.65a30f4b.chunk.js",
+    "static/js/2.65a30f4b.chunk.js.map": "/portfolio/static/js/2.65a30f4b.chunk.js.map",
+    "static/js/3.4193c6e2.chunk.js": "/portfolio/static/js/3.4193c6e2.chunk.js",
+    "static/js/3.4193c6e2.chunk.js.map": "/portfolio/static/js/3.4193c6e2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.2ee63e95.chunk.css.map": "/portfolio/static/css/main.2ee63e95.chunk.css.map",
+    "static/js/2.65a30f4b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.65a30f4b.chunk.js.LICENSE.txt",
+    "static/media/indecision.52aa7fbc.png": "/portfolio/static/media/indecision.52aa7fbc.png",
+    "static/media/Card.module.css": "/portfolio/static/media/james-contact-card.6b158759.jpg",
+    "static/media/rps.c19644d4.png": "/portfolio/static/media/rps.c19644d4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9764ce2.js",
+    "static/js/2.65a30f4b.chunk.js",
+    "static/css/main.2ee63e95.chunk.css",
+    "static/js/main.d2b2336f.chunk.js"
+  ]
+}
