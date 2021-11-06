@@ -10,7 +10,7 @@ const Card = () => {
           <section className={styles.card_icon_wrapper}>
               <a className={styles.card_icon} href="https://www.linkedin.com/in/jamesgardener92"  rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faLinkedin}/> LinkedIn</a> 
               <a className={styles.card_icon} href="https://www.github.com/jgardener" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faGithub}/> GitHub</a> 
-              <a className={styles.card_icon} href="https://docs.google.com/document/d/1uDS_FLNlDv07CyznsAqFddvFAdPAFWP-ixC4MRnr6Dk/edit?usp=sharing" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faGoogleDrive}/> CV</a>    
+              <a className={styles.card_icon} href="https://drive.google.com/file/d/1jjysw9e3w7n1MG-wZPm8ikDwG2cHEE9g/view?usp=sharing" rel="noreferrer" target="_blank" ><FontAwesomeIcon icon={faGoogleDrive}/> CV</a>    
           </section>  
     </section>
   )
