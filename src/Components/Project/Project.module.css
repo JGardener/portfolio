@@ -6,6 +6,7 @@
 
 .project_name {
     margin-bottom: 20px;
+    font-weight: 300;
 }
 
 .display_wrapper {
@@ -33,6 +34,14 @@
 
 .project_description_text {
     margin-bottom: 10px;
+}
+
+.project_external_link_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
 }
 
 /* @media (max-width: 425px) {
