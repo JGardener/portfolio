@@ -23,7 +23,7 @@ const About = () => {
             <br />
             <p>
                 Now, I am looking to get my very first professional position as a front-end developer to grow my 
-                skillbase, to expand my knowledge and improve myself.  
+                skillbase, to expand my knowledge and advance as a developer.  
             </p>
             <br />
             <p>

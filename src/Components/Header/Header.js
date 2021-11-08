@@ -12,7 +12,7 @@ const Header = () => {
                I'm a front-end developer working with JS and React!
             </p>
             <section className={styles.header_links}>
-                <Link to = "/">Home</Link>
+                <Link to = "/portfolio">Home</Link>
                 <Link to = "/about">About</Link>
                 <Link to = "/projects">Projects</Link>
                 <Link to = "/contact">Contact</Link>

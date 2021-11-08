@@ -23,7 +23,7 @@ const AppRouter = () => {
         <Router>
             <Header/>
             <Switch>
-                <Route path="/" exact component={Home}/>
+                <Route path="/portfolio" exact component={Home}/>
                 <Route path="/about" component={About}/>
                 <Route path='/projects' exact component={Projects}/>
 
