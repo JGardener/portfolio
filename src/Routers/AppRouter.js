@@ -8,7 +8,6 @@ import {
 import Contact from '../Pages/Contact/Contact'
 import Header from '../Components/Header/Header';
 import About from '../Pages/About/About';
-import Home from '../Pages/Home/Home';
 import Project from '../Components/Project/Project';
 import Projects from '../Pages/Projects/Projects';
 import { IndecisionInformation } from '../Components/Information/IndecisionInformation'
@@ -23,16 +22,15 @@ const AppRouter = () => {
         <Router>
             <Header/>
             <Switch>
-                <Route path="/portfolio" exact component={Home}/>
-                <Route path="/about" component={About}/>
+                <Route path="/portfolio" exact component={About}/>
                 <Route path='/projects' exact component={Projects}/>
-
                 <Route 
                 path="/projects/indecision" 
                 render={() => <Project 
                     projectName={'Indecision'} 
                     projectImage={indecisionImage} 
                     projectDescription={IndecisionInformation.description} 
+                    projectSkills={IndecisionInformation.skills}
                     projectApp={IndecisionInformation.app}
                     projectCode={IndecisionInformation.code}
                 />}/>
@@ -43,6 +41,7 @@ const AppRouter = () => {
                     projectName={'Rock-Paper-Scissors'} 
                     projectImage={rpsImage} 
                     projectDescription={RPSInformation.description}
+                    projectSkills={RPSInformation.skills}
                     projectApp={RPSInformation.app}
                     projectCode={RPSInformation.code}
                 />}/>
