@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Karma");
+/* @import url("https://fonts.googleapis.com/css?family=Karma"); */
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 
 * {
@@ -14,6 +14,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #171717; 
+  max-width: 1000px;
+  margin: auto;
   /* background-color: #9f2424;  */
 }
 
@@ -24,8 +26,10 @@ code {
 
 a {
   /* font-style: italic; */
+  padding: 10px;
+  /* border: white 2px solid; */
+  /* border-radius: 10px; */
   font-size: 1.2rem;
-  font-family: "Karma";
   text-decoration: none;
   color: #C6976F;
 }

@@ -6,14 +6,14 @@ const Header = () => {
     return(
         <section className = {styles.header_wrapper}> 
             <h2 className = {styles.header_title}>
-                Hi, I'm James Gardener
+                James Gardener
             </h2>
             <p className = {styles.header_text}>
-               I'm a front-end developer working with JS and React!
+               Front End Developer working with JS and React
             </p>
             <section className={styles.header_links}>
-                <Link to = "/portfolio">Me</Link>
                 <Link to = "/projects">Projects</Link>
+                <Link to = "/portfolio">Me</Link>
                 <Link to = "/contact">Contact</Link>
             </section>
         </section>
