@@ -32,8 +32,13 @@ a {
   font-size: 1.2rem;
   text-decoration: none;
   color: #C6976F;
+  padding: 2px 1px 0;
+  /* transition: border-bottom .5s ease-in-out; */
 }
 
+a:hover {
+  border-bottom: 1px solid white;
+}
 
 
 

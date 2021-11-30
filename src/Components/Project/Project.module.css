@@ -46,6 +46,10 @@
     height: 100px;
 }
 
+.project_external_link_wrapper > a {
+    margin-right: 10px;
+}
+
 @media only screen and (max-width: 960px){
     .display_wrapper {
         display: flex;
