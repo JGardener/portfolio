@@ -13,6 +13,7 @@ const Projects = () => {
             <section className={styles.projects_links}>
                 <Link to="/projects/indecision">Indecision</Link>
                 <Link to="/projects/rock-paper-scissors">Rock-Paper-Scissors</Link>
+                <Link to="/projects/chatbot">Chatbot</Link>                
             </section>
         </section>
     )

@@ -10,10 +10,11 @@ import Header from '../Components/Header/Header';
 import About from '../Pages/About/About';
 import Project from '../Components/Project/Project';
 import Projects from '../Pages/Projects/Projects';
-import { IndecisionInformation } from '../Components/Information/IndecisionInformation'
-import { RPSInformation } from '../Components/Information/RPSInformation'
-import indecisionImage from '../Assets/images/indecision.png' 
-import rpsImage from '../Assets/images/rps.png' 
+import { IndecisionInformation } from '../Components/Information/IndecisionInformation';
+import { RPSInformation } from '../Components/Information/RPSInformation';
+import { ChatbotInformation } from '../Components/Information/ChatbotInfomation';
+import indecisionImage from '../Assets/images/indecision.png';
+import rpsImage from '../Assets/images/rps.png'; 
 
 
 
@@ -44,6 +45,15 @@ const AppRouter = () => {
                     projectSkills={RPSInformation.skills}
                     projectApp={RPSInformation.app}
                     projectCode={RPSInformation.code}
+                />}/>
+                
+                <Route 
+                path="/projects/chatbot" 
+                render={() => <Project 
+                    projectName={'Chatbot'} 
+                    projectDescription={ChatbotInformation.description}
+                    projectSkills={ChatbotInformation.skills}
+                    projectCode={ChatbotInformation.code}
                 />}/>
 
                 <Route path="/contact" component={Contact}/>
