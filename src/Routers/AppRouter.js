@@ -15,6 +15,7 @@ import { RPSInformation } from '../Components/Information/RPSInformation';
 import { ChatbotInformation } from '../Components/Information/ChatbotInfomation';
 import indecisionImage from '../Assets/images/indecision.png';
 import rpsImage from '../Assets/images/rps.png'; 
+import chatbotImage from '../Assets/images/bot.png';
 
 
 
@@ -51,6 +52,7 @@ const AppRouter = () => {
                 path="/projects/chatbot" 
                 render={() => <Project 
                     projectName={'Chatbot'} 
+                    projectImage={chatbotImage}
                     projectDescription={ChatbotInformation.description}
                     projectSkills={ChatbotInformation.skills}
                     projectCode={ChatbotInformation.code}
