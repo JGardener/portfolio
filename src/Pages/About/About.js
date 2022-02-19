@@ -10,26 +10,22 @@ const About = () => {
             </p>
             <br />
             <p>
-                I want to build a strong, secure future in a stable yet challenging industry. With the field
-                growing rapidly with each passing year, there are many new technologies being released seemingly
-                every day. I want to dive into the world of technology and build things that people will use and love.
+                I went to university to study acting. During that time, around 2012, I took a module on web development so I could build a website to promote myself as an actor once I had graduated.
+                I took an interest in coding since then, but it was pushed aside so I could focus on acting. 
             </p>
             <br />
             <p>
-                Since 2018, I have learned how to create pages for the web, 
-                small applications including single-page apps, games and helped code 
-                a friend's interface for their professional app. 
+                After deciding that acting wasn't for me, and working other jobs besides, I took a greater interest in coding around 2018. I decided that I would learn from home to bolster my skills as a developer, whilst working jobs to keep me afloat. 
+                I would teach English during the day, then spend my evenings coding. I started with the basics of HTML, CSS and Javascript, but once I became comfortable with those, I decided to try React as it is a very popular framework. 
             </p>
             <br />
             <p>
-                Now, I am looking to get my very first professional position as a front-end developer to grow my 
-                skillbase, to expand my knowledge and advance as a developer.  
+                I realised that not holding a degree in Computer Science, Information Technology, or something similar, was hurting my prospects as a junior developer. I started training with The Training Room through their virtual platform, and gained
+                new qualifications from Certified Partners such as Javascript Specialist, User Interface Design, Advanced HTML and CSS Specialist, and more. 
             </p>
             <br />
             <p>
-                When I'm not coding, you'll find me playing video games with friends, 
-                hiking with my Cocker Spaniel; Wheatley, 
-                or reading Lord of the Rings... again... don't judge me.
+                Now that I hold some qualifications, I am looking to expand my knowledge of different technologies and techniques. From React Hooks, Node, React Router, through to Typescript, GraphQL and data visualisation such as D3. 
             </p>
             <br />
             <p>
