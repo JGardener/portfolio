@@ -14,10 +14,6 @@
   display: flex;
 }
 
-.display_wrapper > * {
-  flex: 1;
-}
-
 .project_description,
 .project_tech {
   display: flex;

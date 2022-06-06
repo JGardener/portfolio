@@ -36,14 +36,16 @@ const Project = ({
         </section>
       </section>
       <section className={styles.project_external_link_wrapper}>
-        <a
-          className={styles.external_link}
-          href={projectApp}
-          target="_blank"
-          rel="noreferrer"
-        >
-          See the App
-        </a>
+        {projectApp && (
+          <a
+            className={styles.external_link}
+            href={projectApp}
+            target="_blank"
+            rel="noreferrer"
+          >
+            See the App
+          </a>
+        )}
         <br />
         <a
           className={styles.external_link}
