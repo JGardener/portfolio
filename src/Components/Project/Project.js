@@ -15,15 +15,12 @@ const Project = ({
       <h1 className={styles.project_name}>{projectName}</h1>
       <section className={styles.display_wrapper}>
         <section className={styles.project_image_wrapper}>
-          <section
-            className={styles.project_image}
-            style={{
-              backgroundImage: `url(${projectImage})`,
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              backgroundPosition: "center",
-            }}
-          ></section>
+          <img
+            height="400px"
+            src={projectImage}
+            alt="Project Thumbnail"
+            styles="object-fit: cover;"
+          />
         </section>
         <section className={styles.project_description}>
           <p className={styles.project_description_text}>
@@ -31,7 +28,6 @@ const Project = ({
           </p>
         </section>
         <section className={styles.project_tech}>
-          <p>Built with:</p>
           <ul className={styles.project_tech_list}>
             {projectSkills.map((element) => (
               <li>{element}</li>
@@ -47,7 +43,7 @@ const Project = ({
           rel="noreferrer"
         >
           See the App
-        </a>{" "}
+        </a>
         <br />
         <a
           className={styles.external_link}
