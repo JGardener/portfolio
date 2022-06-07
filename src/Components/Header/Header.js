@@ -44,7 +44,7 @@ const Header = () => {
       <section className={styles.header_links}>
         <Link to="/work">Work</Link>
         <Link to="/projects">Projects</Link>
-        <Link to="/portfolio">Me</Link>
+        <Link to="/portfolio">Tech</Link>
         <Link to="/contact">Contact</Link>
       </section>
     </section>

@@ -4,25 +4,40 @@ import styles from "./About.module.css";
 const About = () => {
   return (
     <section className={styles.about_wrapper}>
-      <h1 className={styles.about_title}>Who are you?</h1>
+      <h1 className={styles.about_title}>What have I learned?</h1>
+      <h4>Base</h4>
+      <p>HTML, CSS, JS and TailwindCSS</p>
       <p>
-        I'm a Junior Front-End Developer, who chose React as their framework of
-        choice. In 2018, I began to teach myself how to code.
+        The trifecta is where I began my coding journey, and consistently
+        working on the fundamentals makes working with other technologies that
+        build on these a lot easier. Furthermore, TailwindCSS has made my CSS
+        process much cleaner and more efficient.
+      </p>
+      <h4>Frameworks</h4>
+      <p>
+        React - Whilst I'm focussing on React, with particular focus on Hooks
+        and Redux Toolkit, I am more than willing to upskill in Vue and/or
+        Angular
+      </p>
+      <h4>Beginning to learn</h4>
+      <p>PHP, Laravel, Wordpress</p>
+      <h4>Whilst at work</h4>
+      <p>Up-skilling HTML, CSS, JS and TailwindCSS</p>
+      <p>
+        Optimising websites for deployment; image compression, prefetch/preload,
+        CDN/local files, clean directory structure, GTMetrix et al.
       </p>
       <p>
-        My first professional role was for Wonderful Creative Agency in Kent,
-        building out projects such as the landing page for a high-profile
-        household name collaborating with a top BBC/Netflix TV series. Other
-        projects included email signatures and quote templates for clients. I
-        up-skilled in HTML, CSS and JS, began using TailwindCSS as well as
-        learning the basics of Wordpress, PHP and Laravel. I learned how to
-        incorporate libraries into my work, such as TinySlider and FancyBox.
+        Incorporating libraries into work, TinySlider for carousels, FancyBox
+        for modal videos/images, LeafletJS for interactive maps, ChartJS for
+        charting, etc
       </p>
-      <p>
-        I learned how to optimise websites for deployment by performing tasks
-        such as preload and prefetch, compressing images while retaining their
-        quality, converting CDN's to local files, deferring scripts, etc.
-      </p>
+      <p>Adobe Photoshop and Adobe XD</p>
+      <h4>What I'm learning right now</h4>
+      <p>React - it's always ongoing!</p>
+      <p>React Hooks</p>
+      <p>Redux Toolkit</p>
+      <p>Any libraries that make any of my projects smoother!</p>
     </section>
   );
 };
