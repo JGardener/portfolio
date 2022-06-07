@@ -1,18 +1,18 @@
 .projects_text {
-    text-align: center;
+  text-align: center;
 }
 
 .projects_title {
-    font-weight: 300;
-    font-size: 1.2rem;
-    line-height: 32px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 32px;
 }
 
 .projects_links {
-    justify-content: space-around;
-    align-items: center;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    height: 200px;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
