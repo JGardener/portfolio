@@ -38,6 +38,13 @@ const About = () => {
       <p>React Hooks</p>
       <p>Redux Toolkit</p>
       <p>Any libraries that make any of my projects smoother!</p>
+      <br />
+      <h4>What's my plan?</h4>
+      <p>
+        I'd like to focus on front-end work at the moment, but once I complete
+        my time as a junior, and move into mid-level or senior work, I'd like to
+        expand to full-stack development!
+      </p>
     </section>
   );
 };
