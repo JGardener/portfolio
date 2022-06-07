@@ -6,6 +6,7 @@ import Header from "../Components/Header/Header";
 import About from "../Pages/About/About";
 import Project from "../Components/Project/Project";
 import Projects from "../Pages/Projects/Projects";
+import Work from "../Pages/Work";
 import { IndecisionInformation } from "../Components/Information/IndecisionInformation";
 import { RPSInformation } from "../Components/Information/RPSInformation";
 import { ChatbotInformation } from "../Components/Information/ChatbotInfomation";
@@ -18,6 +19,7 @@ const AppRouter = () => {
     <Router>
       <Header />
       <Switch>
+        <Route path="/work" exact component={Work} />
         <Route path="/portfolio" exact component={About} />
         <Route path="/projects" exact component={Projects} />
         <Route

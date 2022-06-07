@@ -32,7 +32,11 @@ const About = () => {
         for modal videos/images, LeafletJS for interactive maps, ChartJS for
         charting, etc
       </p>
-      <p>Adobe Photoshop and Adobe XD</p>
+      <p>
+        Adobe Photoshop and Adobe XD - Photoshop to resize and make small
+        adjustments to images, and designers would send through their designs to
+        me in XD
+      </p>
       <h4>What I'm learning right now</h4>
       <p>React - it's always ongoing!</p>
       <p>React Hooks</p>
