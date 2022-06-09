@@ -1,46 +1,47 @@
 .card_wrapper {
-    height: 300px;
-    min-width: 300px;
-    max-width: 300px;
-    background: grey;
-    border-radius: 10px;
-    background: url(../../Assets/images/james-contact-card.jpg) center center no-repeat;
-    background-size: 300px;
-    transition: background 0.8s;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+  height: 300px;
+  min-width: 300px;
+  max-width: 300px;
+  background: grey;
+  border-radius: 10px;
+  background: url(../../Assets/images/james-alternate-removebg-preview.png)
+    center center no-repeat;
+  background-size: 300px;
+  transition: background 0.8s;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
-.card_wrapper:hover {
+/* .card_wrapper:hover {
     background: url(../../Assets/images/james-contact-card.jpg) left center no-repeat;
     background-size: 528px;  
-}
+} */
 
 .card_title {
-    opacity: 0;
-    transition: opacity 0.8s;
-    padding: 5px;
-    text-shadow: 2px 2px black;
+  opacity: 0;
+  transition: opacity 0.8s;
+  padding: 5px;
+  text-shadow: 2px 2px black;
 }
 
 .card_wrapper:hover > .card_title {
-    opacity: 1;
+  opacity: 1;
 }
 
 .card_icon {
-    opacity: 0;
-    transition: opacity 0.8s;
+  opacity: 0;
+  transition: opacity 0.8s;
 }
 
 .card_wrapper:hover > .card_icon_wrapper > .card_icon {
-    opacity: 1;
+  opacity: 1;
 }
 
 .card_icon_wrapper {
-    display: flex;
-    flex-direction: column;
-    height: 50%;
-    align-items: flex-start;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  align-items: flex-start;
+  justify-content: space-around;
 }

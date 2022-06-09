@@ -1,23 +1,23 @@
 .contact_wrapper {
-    max-width: 1000px;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .contact_text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  text-align: center;
 }
 
-@media ( max-width: 768px) {
-    .contact_wrapper {
-        flex-direction: column;
-        align-items: center;
-    }
+@media (max-width: 768px) {
+  .contact_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
 }

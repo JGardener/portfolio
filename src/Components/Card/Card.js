@@ -10,7 +10,7 @@ import {
 const Card = () => {
   return (
     <section className={styles.card_wrapper}>
-      <h1 className={styles.card_title}> James Gardener</h1>
+      {/* <h1 className={styles.card_title}> James Gardener</h1>
       <section className={styles.card_icon_wrapper}>
         <a
           className={styles.card_icon}
@@ -36,7 +36,7 @@ const Card = () => {
         >
           <FontAwesomeIcon icon={faGoogleDrive} /> CV
         </a>
-      </section>
+      </section> */}
     </section>
   );
 };

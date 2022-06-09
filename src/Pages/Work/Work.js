@@ -12,26 +12,28 @@ const Work = () => {
     <div className={styles.work_wrapper}>
       <h1>My Professional Work</h1>
       <h3>Wonderful Creative Agency</h3>
-      <p>
-        The following website was built during my time at Wonderful Creative
-        Agency.
-      </p>
-      <p>
-        The site is a landing page for a Father's Day promotion; a collaboration
-        between a high-profile household name and a renowned BBC/Netflix TV
-        series.
-      </p>
-      <p>
-        <i>
-          Please note that as this website was promotional for Father's Day
-          2022, it may no longer be live after June 19th 2022.
-        </i>
-      </p>
-      <p>
-        <a target="blank_" href="https://www.wahl.co.uk/peaky-blinders-gifts">
-          Click here to visit the site
-        </a>
-      </p>
+      <section className={styles.intro}>
+        <p>
+          The following website was built during my time at Wonderful Creative
+          Agency.
+        </p>
+        <p>
+          The site is a landing page for a Father's Day promotion; a
+          collaboration between a high-profile household name and a renowned
+          BBC/Netflix TV series.
+        </p>
+        <p>
+          <i>
+            Please note that as this website was promotional for Father's Day
+            2022, it may no longer be live after June 19th 2022.
+          </i>
+        </p>
+        <p>
+          <a target="blank_" href="https://www.wahl.co.uk/peaky-blinders-gifts">
+            Click here to visit the site
+          </a>
+        </p>
+      </section>
       <img width="100%" src={workHero} alt="website hero section" />
 
       <h2>The Requirements</h2>
@@ -55,8 +57,10 @@ const Work = () => {
       {/* Desktop Modal */}
       <section className={styles.section}>
         <div className={styles.section_div}>
-          By using a modal for product videos hosted by Wahl on YouTube, the
-          user can focus on product information they want.
+          <p>
+            By using a modal for product videos hosted by Wahl on YouTube, the
+            user can focus on product information they want.
+          </p>
         </div>
         <div className={styles.section_div}>
           <img
@@ -83,20 +87,24 @@ const Work = () => {
           <p className={styles.modal_click}>Click this image!</p>
         </div>
         <div className={styles.section_div}>
-          Rather than being overwhelmed by text and masses of information, the
-          user is able to 'flip' a product that draws their eye, and focus
-          entirely on information related to that product.
+          <p>
+            Rather than being overwhelmed by text and masses of information, the
+            user is able to 'flip' a product that draws their eye, and focus
+            entirely on information related to that product.
+          </p>
         </div>
       </section>
 
       {/* Mobile Carousel and Modal */}
       <section className={styles.section}>
         <div className={styles.section_div}>
-          A mobile view, capable of displaying an infinite number of products,
-          thanks to a carousel. Complete with their own image, description,
-          price, modal video on YouTube and an external site link for purchase;
-          the mobile view holds all the information without compromising on
-          space.
+          <p>
+            A mobile view, capable of displaying an infinite number of products,
+            thanks to a carousel. Complete with their own image, description,
+            price, modal video on YouTube and an external site link for
+            purchase; the mobile view holds all the information without
+            compromising on space.
+          </p>
         </div>
         <div id={styles.mobileView} className={styles.section_div}>
           <img src={mobileView} alt="animation of website's mobile view" />
