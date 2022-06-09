@@ -13,14 +13,17 @@ const About = () => {
         build on these a lot easier. Furthermore, TailwindCSS has made my CSS
         process much cleaner and more efficient.
       </p>
+      <br />
       <h4>Frameworks</h4>
       <p>
         React - Whilst I'm focussing on React, with particular focus on Hooks
         and Redux Toolkit, I am more than willing to upskill in Vue and/or
         Angular
       </p>
+      <br />
       <h4>Beginning to learn</h4>
       <p>PHP, Laravel, Wordpress</p>
+      <br />
       <h4>Whilst at work</h4>
       <p>Up-skilling HTML, CSS, JS and TailwindCSS</p>
       <p>
@@ -37,6 +40,7 @@ const About = () => {
         adjustments to images, and designers would send through their designs to
         me in XD
       </p>
+      <br />
       <h4>What I'm learning right now</h4>
       <p>React - it's always ongoing!</p>
       <p>React Hooks</p>

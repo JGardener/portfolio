@@ -1,0 +1,28 @@
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section_div {
+  width: 50%;
+  position: relative;
+}
+
+#modal_div {
+  position: relative;
+}
+
+.modal_click {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
+
+#mobileView {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
