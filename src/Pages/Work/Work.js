@@ -102,7 +102,7 @@ const Work = () => {
           <img src={mobileView} alt="animation of website's mobile view" />
         </div>
       </section>
-      <section>
+      <section className={styles.learn}>
         <h1>What did I learn?</h1>
         <ul>
           <li>
@@ -130,7 +130,18 @@ const Work = () => {
           <li>
             Up-skill in HTML, CSS and JS - Through building this page, and the
             most complex design I had worked on personally, I improved my
-            abilities in HTML, CSS and JS considerably.{" "}
+            abilities in HTML, CSS and JS considerably.
+          </li>
+          <li>
+            The basics of Photoshop and XD - I used Photoshop, primarily for
+            image optimisation, and XD, primarily for receiving designs from
+            designers.
+          </li>
+          <li>
+            Measuring the site - Using tools such as GTMetrix, Pagespeed.web.dev
+            and web.dev/measure, I was able to measure the site's load times,
+            payload sizes, and use this information to optimise the site
+            thoroughly.
           </li>
         </ul>
       </section>
