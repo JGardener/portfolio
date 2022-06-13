@@ -5,9 +5,9 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  color: #331509;
+  /* color: #331509; */
   font-size: 1.5rem;
-  /* color: white; */
+  color: white;
   /* color: #e6e600; */
 }
 
@@ -15,8 +15,8 @@ body {
   font-family: "Poppins";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-color: #171717; */
-  background-color: #c9c063;
+  background-color: #171717;
+  /* background-color: #c9c063; */
   max-width: 1280px;
   margin: auto;
   padding: 10px;
@@ -29,8 +29,8 @@ a {
   /* border-radius: 10px; */
   font-size: 1.5rem;
   text-decoration: none;
-  /* color: #c6976f; */
-  color: black;
+  color: #c6976f;
+  /* color: black; */
   padding: 5px;
   font-weight: bold;
   /* transition: border-bottom .5s ease-in-out; */
