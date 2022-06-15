@@ -46,7 +46,6 @@ const Project = ({
             See the App
           </a>
         )}
-        <br />
         <a
           className={styles.external_link}
           href={projectCode}
@@ -55,8 +54,10 @@ const Project = ({
         >
           See the Code
         </a>
+        <Link className={styles.external_link} to="/projects">
+          Back to Projects
+        </Link>
       </section>
-      <Link to="/projects">Back to Projects</Link>
     </section>
   );
 };

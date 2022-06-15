@@ -69,7 +69,7 @@ const AppRouter = () => {
           path="/projects/moviedb"
           render={() => (
             <Project
-              projectName={"Chatbot"}
+              projectName={"MovieDB"}
               projectImage={moviedbImage}
               projectDescription={moviedbInformation.description}
               projectSkills={moviedbInformation.skills}
