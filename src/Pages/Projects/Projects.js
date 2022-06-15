@@ -7,10 +7,7 @@ const Projects = () => {
     <section className={styles.projects_wrapper}>
       <section className={styles.projects_text}>
         <h1 className={styles.projects_title}>Projects</h1>
-        <p>
-          These are the projects I completed before I got my first professional
-          job
-        </p>
+        <p>These are some projects I've completed outside of work</p>
       </section>
       <section className={styles.projects_links}>
         <Link to="/projects/indecision">Indecision</Link>
@@ -29,9 +26,17 @@ const Projects = () => {
         <Link to="/projects/chatbot">Chatbot</Link>
         <p>
           Chatbot is the beginning of a moderation and interaction bot for
-          streamers on Twitch.tv. It has no front-end, so there isn't anything
-          to see live, however the code is available to view. I used Twitch's
-          API to interact with the site and streamer's channels.
+          streamers on Twitch.tv. It's built in NodeJS and does not have a GUI,
+          however, the code is available to view. I used Twitch's API to
+          interact with the site and streamer's channel.
+        </p>
+        <br />
+        <Link to="/projects/moviedb">MovieDB</Link>
+        <p>
+          MovieDB uses the Open Movie Database API to search for a queried
+          movie, display results, then give the user more information once they
+          choose a specific movie. Furthermore, they can add movies to their
+          'favourites', which is displayed as a list on the main page.
         </p>
       </section>
     </section>

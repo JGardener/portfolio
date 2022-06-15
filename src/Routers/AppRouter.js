@@ -10,9 +10,11 @@ import Work from "../Pages/Work/Work";
 import { IndecisionInformation } from "../Components/Information/IndecisionInformation";
 import { RPSInformation } from "../Components/Information/RPSInformation";
 import { ChatbotInformation } from "../Components/Information/ChatbotInfomation";
+import { moviedbInformation } from "../Components/Information/moviedbInformation";
 import indecisionImage from "../Assets/images/indecision.png";
 import rpsImage from "../Assets/images/rps.png";
 import chatbotImage from "../Assets/images/bot.png";
+import moviedbImage from "../Assets/images/MovieDB.jpg";
 
 const AppRouter = () => {
   return (
@@ -59,6 +61,20 @@ const AppRouter = () => {
               projectDescription={ChatbotInformation.description}
               projectSkills={ChatbotInformation.skills}
               projectCode={ChatbotInformation.code}
+            />
+          )}
+        />
+
+        <Route
+          path="/projects/moviedb"
+          render={() => (
+            <Project
+              projectName={"Chatbot"}
+              projectImage={moviedbImage}
+              projectDescription={moviedbInformation.description}
+              projectSkills={moviedbInformation.skills}
+              projectCode={moviedbInformation.code}
+              projectApp={moviedbInformation.app}
             />
           )}
         />
