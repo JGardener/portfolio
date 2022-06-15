@@ -1,10 +1,11 @@
-.projects_wrapper {
-  text-align: center;
-}
-
 .projects_title {
   font-weight: 300;
   text-decoration: underline;
+  text-align: center;
+}
+
+.projects_subtitle {
+  text-align: center;
 }
 
 .projects_links {

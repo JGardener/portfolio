@@ -7,7 +7,9 @@ const Projects = () => {
     <section className={styles.projects_wrapper}>
       <section className={styles.projects_text}>
         <h1 className={styles.projects_title}>Projects</h1>
-        <p>These are some projects I've completed outside of work</p>
+        <p className={styles.projects_subtitle}>
+          These are some projects I've completed outside of work
+        </p>
       </section>
       <section className={styles.projects_links}>
         <Link to="/projects/indecision">Indecision</Link>
