@@ -46,6 +46,7 @@ const About = () => {
       <p>React Hooks</p>
       <p>Redux Toolkit</p>
       <p>jQuery</p>
+      <p>PHP & Laravel</p>
       <p>Any libraries that make any of my projects smoother!</p>
       <br />
       <h4>What's my plan?</h4>
