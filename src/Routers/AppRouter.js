@@ -11,10 +11,12 @@ import { IndecisionInformation } from "../Components/Information/IndecisionInfor
 import { RPSInformation } from "../Components/Information/RPSInformation";
 import { ChatbotInformation } from "../Components/Information/ChatbotInfomation";
 import { moviedbInformation } from "../Components/Information/moviedbInformation";
+import { PokeQuestInformation } from "../Components/Information/Pokemon";
 import indecisionImage from "../Assets/images/indecision.png";
 import rpsImage from "../Assets/images/rps.png";
 import chatbotImage from "../Assets/images/bot.png";
 import moviedbImage from "../Assets/images/MovieDB.jpg";
+import pokeImage from "../Assets/images/pokemon.jpg";
 
 const AppRouter = () => {
   return (
@@ -75,6 +77,20 @@ const AppRouter = () => {
               projectSkills={moviedbInformation.skills}
               projectCode={moviedbInformation.code}
               projectApp={moviedbInformation.app}
+            />
+          )}
+        />
+
+        <Route
+          path="/projects/pokequest"
+          render={() => (
+            <Project
+              projectName={"PokeQuest"}
+              projectImage={pokeImage}
+              projectDescription={PokeQuestInformation.description}
+              projectSkills={PokeQuestInformation.skills}
+              projectCode={PokeQuestInformation.code}
+              projectApp={PokeQuestInformation.app}
             />
           )}
         />

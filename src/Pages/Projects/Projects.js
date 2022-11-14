@@ -40,6 +40,18 @@ const Projects = () => {
           choose a specific movie. Furthermore, they can add movies to their
           'favourites', which is displayed as a list on the main page.
         </p>
+        <br />
+        <Link to="/projects/pokequest">PokéQuest</Link>
+        <p>
+          PokéQuest originally started as a code-test for a company I was
+          interviewing for. After completing the initial requirements of the
+          assignment, I continued to add to it. I added functionality, I
+          refactored code, and continued to expand on previous work. The company
+          wanted to make me an offer for the role, but the company board put a
+          hiring freeze in place before the offer could be made due to the
+          economy. Whilst this was incredibly unfortunate, I wanted to continue
+          building on this project!
+        </p>
       </section>
     </section>
   );
